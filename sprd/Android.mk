@@ -3,7 +3,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 SPRD_WCNBT_CHISET := marlin3
-BDROID_DIR := $(TOP_DIR)system/bt
+BDROID_DIR := $(TOP_DIR)packages/modules/Bluetooth/system
 
 LOCAL_SRC_FILES := \
         src/bt_vendor_sprd.c \

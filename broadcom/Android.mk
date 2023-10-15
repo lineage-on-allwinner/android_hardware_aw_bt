@@ -10,7 +10,7 @@ else
   bdroid_CFLAGS += -DHAS_NO_BDROID_BUILDCFG
 endif
 
-BDROID_DIR := $(TOP_DIR)system/bt
+BDROID_DIR := $(TOP_DIR)packages/modules/Bluetooth/system
 
 LOCAL_CFLAGS += -DUSE_AMPAK_BT_MODULE
 

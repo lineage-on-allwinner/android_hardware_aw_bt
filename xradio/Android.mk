@@ -9,7 +9,7 @@ else
   bdroid_CFLAGS += -DHAS_NO_BDROID_BUILDCFG
 endif
 
-BDROID_DIR := system/bt
+BDROID_DIR := packages/modules/Bluetooth/system
 
 LOCAL_SRC_FILES := \
         src/bt_vendor_xr.c \
